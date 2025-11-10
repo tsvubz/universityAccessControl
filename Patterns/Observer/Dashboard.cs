@@ -1,4 +1,5 @@
 using UniversityAccessControl.Models;
+using UniversityAccessControl.Patterns.Singleton; 
 
 namespace UniversityAccessControl.Patterns.Observer;
 

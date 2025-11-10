@@ -4,7 +4,7 @@ namespace UniversityAccessControl.Patterns.Singleton;
 
 public class AccessPolicyManager
 {
-    private static AccessPolicyManager _instance;
+    private static AccessPolicyManager? _instance;
     private static readonly object _lock = new object();
     
     private readonly Dictionary<string, bool> _accessRules;

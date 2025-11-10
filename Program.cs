@@ -29,20 +29,20 @@ class Program
         labRoom.Attach(mobileApp);
         libraryRoom.Attach(adminDashboard);
 
-        // Test data
-        var studentData = new UserData("S001", "John Student", "STUDENT")
+        // Test data - using proper constructor calls
+        var studentData = new UserData("TS437", "Terence Svubure", "STUDENT")
         {
-            StudentId = "STU12345",
+            StudentId = "43700",
             Courses = new List<string> { "CS101", "MATH202" }
         };
 
-        var lecturerData = new UserData("L001", "Dr. Smith", "LECTURER")
+        var lecturerData = new UserData("L001", "Dr. Eng. Tomasz Giżewski", "LECTURER")
         {
             EmployeeId = "EMP55001",
             Department = "Computer Science"
         };
 
-        var adminData = new UserData("A001", "Admin User", "ADMIN")
+        var adminData = new UserData("A001", "Admin Admin", "ADMIN")
         {
             StaffId = "ADM77001",
             AccessLevel = 5

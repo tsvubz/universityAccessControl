@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversityAccessControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+766515ff704bfdd39e441c2ed49c1777576788e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f95a66490e2b07b54dc7edf5bf146ff1fa511ebe")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversityAccessControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversityAccessControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

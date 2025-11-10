@@ -2,7 +2,7 @@ namespace UniversityAccessControl.Patterns.Singleton;
 
 public class Logger
 {
-    private static Logger _instance;
+    private static Logger? _instance; 
     private static readonly object _lock = new object();
     
     private readonly List<string> _logEntries;
